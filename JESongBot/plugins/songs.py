@@ -1,5 +1,5 @@
 # Plugin by @Mr_Dark_Prince
-#Uvindu Bro <https://t.me/UvinduBro>
+#nadunmalaka <https://t.me/NM_rider>
 
 import os
 import requests
