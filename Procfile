@@ -1,1 +1,1 @@
-worker: python3 -m JESongBot
+worker: python3 -m NMSongBot
