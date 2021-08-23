@@ -1,4 +1,4 @@
-#Uvindu Bro <https://t.me/UvinduBro>
+#nadunmalaka <https://t.me/NM_rider>
 
 from pyrogram.types.bots_and_keyboards import reply_keyboard_markup
 from JESongBot.plugins import *
@@ -8,12 +8,12 @@ from JESongBot import Jebot as app
 from JESongBot import LOGGER
 
 pm_start_text = """
-Hey [{}](tg://user?id={}), I'm Song Downloader Bot 🎵
+Hey [{}](tg://user?id={}), I'm Amdy Song Downloader Bot 🎵
 
-😉 Just send me the song name you want to download.😋
+😍 Just send me the song name you want to download.🎼🔊
       eg:```/song Faded```
       
-A bot by @Uvindu_Bro 🇱🇰
+A bot by @NM_rider 🇱🇰
 """
 
 @app.on_message(filters.command("start"))
@@ -26,10 +26,10 @@ async def start(client, message):
             [
                 [
                      InlineKeyboardButton(
-                        text="Channel 🔊", url="https://t.me/UvinduBr"
+                        text="Support 🔊", url="https://t.me/Amdyx_bot"
                     ),
                     InlineKeyboardButton(
-                        text="Dev 🔥", url="https://t.me/Uvindu_Bro"
+                        text="Dev 🔥", url="https://t.me/NM_rider"
                     )
                 ]
             ]
@@ -40,5 +40,6 @@ async def start(client, message):
 
 
 app.start()
-LOGGER.info("✅ UBSongBot is online.")
+LOGGER.info("✅ NMSongBot is online.")
+LOGGOR.info("🛠️ Bot created is sucsses ⚙️")
 idle()
