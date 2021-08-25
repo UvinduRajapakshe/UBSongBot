@@ -9,7 +9,7 @@
         "JE Bots"
     ],
     "website": "https://infinityje.com",
-    "repository": "https://github.com/scprojectslk/JESongBot",
+    "repository": "https://github.com/nadunmalaka/UBSongBot.git",
     "success_url": "https://t.me/SCProjectsLK",
     "env": {
         "BOT_TOKEN": {
